@@ -40,7 +40,7 @@ Basically normal query responding in normal data but error based disclosing endp
 ### 3. Testing for confluence(Older version)
     Found CVE:-2018-20824
 
-**Created dork: inurl:"/plugins/servlet/Wallboard/" **
+**Created dork: inurl:"/plugins/servlet/Wallboard/" 
 
 EP:/?dashboardId=10102&dashboardId=10103&cyclePeriod=(function(){alert(document.cookie);return%2030000;})()&transitionFx=fadeZoom&random=false
 
@@ -51,7 +51,9 @@ Some programs still using old versions: Hit and try
 /plugins/servlet/Wallboard/?dashboardId=10000&dashboardId=10000&cyclePeriod=alert(document.domain)
 
 
-### 4. I was testing for ATO via reset function . Tried all method but no success. My friend 
+### 4. Testing Account Takeover:-
+
+    I was testing for ATO via reset function . Tried all method but no success. My friend 
     @Tabnexa
     gave me tip to add  double Host in request while requesting password
 
@@ -114,7 +116,7 @@ He saw an ad and visited that link. But it's empty, so he created that subdomain
  ### 7. Got SSH access:-
   ❣️❣️❣️❣️
   
-  ####Tip: Github Dork
+  #### Tip: Github Dork
   "site . com" ssh language:yaml
 
 Got config.yaml
@@ -125,7 +127,7 @@ you can also check yaml, sql, txt, ruby
 Exploiting the SSH CRC32 Compensation Attack Detector ... - Penetration Testing
 https://github.com/techgaun/github-dorks
 
-**NOTE: If got ssh port open and access denied -> Check for creds on github, If you get it ,you are lucky**
+**NOTE: If got ssh port open and access denied -> Check for creds on github, If you get it ,you are lucky
 
 
 ### 8. Upload RCE 
@@ -143,7 +145,7 @@ Another part I found document upload IDOR on same function❣️
 ### 9. Remote Code Execution >
 In last 3 days found 2 Remote Code Execution
 
-**Tip 1: Always check document upload section**
+**Tip 1: Always check document upload section
 
        2. If your request is going to admin try to escalate using burp-collaborator.
 
@@ -242,7 +244,7 @@ Reference -> https://hackerone.com/reports/322985
 6. On manual observation found basic console button under that php files > Click > Boooom
 6. Too much sensitive data
 
-**Dorks example ->**
+**Dorks example ->
 
 1. site:http://site.com ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
 
