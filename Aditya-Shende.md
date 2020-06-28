@@ -26,7 +26,7 @@ So redirect_uri accept any url like attcker.com
 
  3. The same function was their all 7 subs. All affected
 
- ### 2.Bug name: Unauthorized access to API EP via jql queries
+ ### 2. Bug name: Unauthorized access to API EP via jql queries
 
    Basically jql is low based but I escalated to good severity 
 
@@ -34,7 +34,7 @@ So redirect_uri accept any url like attcker.com
 
 Basically normal query responding in normal data but error based disclosing endpoints where path was unauthorized for viewing Json endpoints
 
-#####Resource -> https://community.atlassian.com/t5/Jira-Questions/JQL-input-sanitization/qaq-p/967393
+##### Resource -> https://community.atlassian.com/t5/Jira-Questions/JQL-input-sanitization/qaq-p/967393
 
 
 ### 3. Testing for confluence(Older version)
@@ -111,7 +111,7 @@ He saw an ad and visited that link. But it's empty, so he created that subdomain
 7. It was downloading jonas 1st report
 
 
-### 7. Got SSH access
+ ### 7. Got SSH access:-
   ❣️❣️❣️❣️
   
   ####Tip: Github Dork
@@ -121,7 +121,7 @@ Got config.yaml
 
 you can also check yaml, sql, txt, ruby
 
-#####Resource -> 
+##### Resource -> 
 Exploiting the SSH CRC32 Compensation Attack Detector ... - Penetration Testing
 https://github.com/techgaun/github-dorks
 
@@ -149,7 +149,8 @@ In last 3 days found 2 Remote Code Execution
 
 These are tips only remaining you've to Google Heart exclamation ❣️
 
-#####Resource -> https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
+##### Resource -> 
+https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
 
 For 2: meaning OOB getting triggered on your collaborator / bind server by passing the output from RCE as DNS-request? What kind of document you talking bout? XXE with docx/SVG/xlxs?
 
@@ -261,4 +262,4 @@ After successful registration it was redirecting to user account dashboard, That
 
 Its 2FA bypass but you'll get idea how tampering helps to bypass
 
-Reference -> https://www.youtube.com/watch?v=mFeRAFWjEns&feature=youtu.be
+**Reference -> https://www.youtube.com/watch?v=mFeRAFWjEns&feature=youtu.be
